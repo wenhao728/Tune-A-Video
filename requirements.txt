@@ -1,13 +1,14 @@
-torch==1.12.1
-torchvision==0.13.1
+# https://github.com/showlab/Tune-A-Video/issues/15#issuecomment-1432319965
+# torch==1.12.1
+# torchvision==0.13.1
 diffusers[torch]==0.11.1
-transformers>=4.25.1
+transformers==4.26.0
 bitsandbytes==0.35.4
 decord==0.6.0
-accelerate
+accelerate==0.16.0
 tensorboard
 modelcards
 omegaconf
-einops
+einops==0.6.0
 imageio
 ftfy
